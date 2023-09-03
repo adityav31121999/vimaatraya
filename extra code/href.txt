@@ -1,6 +1,0 @@
-<!-- 
-    To open new tab for payment page:
-    <a href="payment.html" target="_blank">
-        Payment
-    </a>
--->
