@@ -2,22 +2,29 @@
     Background effect on all the pages
     To be followed the same
 */
-html, body {
-    background-color: #40e0d0; /* turquoise */
-    background-image: linear-gradient(to right, #40e0d0, #008080); /* turquoise to teal */
+body {
+    background-color: whitesmoke; /* turquoise */
     margin-left: 18px;
     margin-right: 18px;
 }
 
 .header {
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Roboto, Arial, sans-serif";
     font-size: 54px;
     text-align: center;
     color: teal;
+    width: 100%;
+    height: 90px;
+}
+
+.subtitile {
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    font-family: "Times New Roman, Arial, sans-serif";
 }
 
 .para {
-    font-family: "Comics Sans MS", cursive;
+    font-family: "Roboto, Arial, sans-serif";
     font-size: 27px;
     text-align: center;
     color: black;
@@ -28,9 +35,14 @@ html, body {
     border: 3px solid turquoise;
     color: teal;
     padding: 9px;
-    font-family: "Comics S3ans MS", cursive;
+    font-family: "Roboto, Arial, sans-serif";
     font-size: 27px;
     text-align: center;
+}
+
+.list {
+    font-family: "Roboto, Arial, sans-serif";
+    font-size: 27px;
 }
 
 .border {
