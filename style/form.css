@@ -4,46 +4,37 @@
 
 .form-container {
     font-family: "Times New Roman", sans-serif;
+    align-items: center;
     font-size: 21px;
     text-align: justify;
-    color: teal;
-    border: none;
+    color: rgb(18, 177, 177);
+    border: 1px teal solid;
     padding: 20px;
-    width: 400px;
-    min-height: 360px;
+    width: 410px;
+    height: 410px;
     margin: 0 auto;
-    text-align: justify;
     white-space: normal;
     background-color: white;
 }
 
-.form-container input[type="text"] {
+.form-container textarea[type="text"] {
     width: 400px;
-    padding: 3px;
     margin-bottom: 9px;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: justify;
+    white-space: normal;
+    font-size: 15px;
+    margin: 3px;
 }
 
 .tall-input {
     height: 90px;
-    width: 360px;
-    border: 3px solid black;
-    text-align: justify;
-    white-space: normal;
-    font-size: 21px;
 }
 
 .short-input {
     height: 21px;
 }
 
-.button {
-    border-style: outset;
-    border: none;
-    border-radius: 3px;
-    background-color: rgb(222, 226, 226);
-    color: black;
-    height: 36px;
-    width: 105px;
-}

@@ -1,0 +1,26 @@
+/*
+    Buttons and link boxes
+*/
+
+.button {
+    /* For Submit Button */
+    border-style: outset;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(222, 226, 226);
+    color: black;
+    height: 36px;
+    width: 105px;
+}
+
+.boxed-links a {
+    /* Boxed Links */
+    display: inline-block;
+    border: 3px solid turquoise;
+    color: teal;
+    padding: 9px;
+    font-family: "Roboto, Arial, sans-serif";
+    font-size: 27px;
+    text-align: center;
+}
+

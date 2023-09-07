@@ -30,16 +30,6 @@ body {
     color: black;
 }
 
-.boxed-links a {
-    display: inline-block;
-    border: 3px solid turquoise;
-    color: teal;
-    padding: 9px;
-    font-family: "Roboto, Arial, sans-serif";
-    font-size: 27px;
-    text-align: center;
-}
-
 .list {
     font-family: "Roboto, Arial, sans-serif";
     font-size: 27px;
