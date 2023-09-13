@@ -1,7 +1,11 @@
-.boxes-container {
-    text-align: center;
+.box {
+    display: inline-block;
+    color: orangered;
+    padding: 9px;
     border: none;
     font-size: 54px;
+    text-align: center;
+    font-family: "Roboto, Arial, sans-serif";
     width: 300px;
     height: 300px;
 }
