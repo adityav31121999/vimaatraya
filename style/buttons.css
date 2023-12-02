@@ -14,7 +14,6 @@
 }
 
 .boxed-links a {
-    /* Boxed Links */
     display: inline-block;
     border: 3px solid turquoise;
     color: teal;
@@ -22,5 +21,19 @@
     font-family: "Roboto, Arial, sans-serif";
     font-size: 27px;
     text-align: center;
+    /* Boxed Links */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    /* outline: 0px solid white; */
+    list-style-type: none;
+    transition: all 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
